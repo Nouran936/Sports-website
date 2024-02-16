@@ -1,0 +1,153 @@
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;margin:0;
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  background-color: #f1f1f1;
+  width: 200px;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 18px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: blueviolet;
+    color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 85%;
+    margin-left: 200px;
+    height: 100%;
+}
+
+
+h2{
+    text-align: center;
+    margin-top: 5px;
+    padding-top: none;
+}
+
+#avatar{
+    width:160px;
+    border-radius: 50%;
+    margin: 9px 18px;
+    
+}
+
+
+.data_table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 99%;
+    border: 1px solid #ddd;
+  }
+  
+.data_table th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+.data_table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  #avatar{
+    width: 170px;
+    margin-bottom: 0;
+  }
+  #text1{
+    margin-left: 28px;
+    width:400px;
+    height:50px;
+    border-style: outset;
+    }
+
+    #text2{
+      margin-left: 28px;
+      width:400px;
+      height:50px;
+      border-style: outset;
+      }
+
+  .change{
+    margin-left:200px;
+    margin-top:300px;
+  }
+  
+  span{
+    font-size: 30px;
+    color: rgb(88, 19, 97);
+    float: left;
+    color: darkgreen;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 8px solid #00000033;
+    background-color: rgb(88, 19, 97);
+    color: whitesmoke;
+    border-radius: 5520px;
+    width: 50%;
+    
+  }
+
+  #colorList1{
+    padding-bottom: 10px;
+    width:80px;
+    height:40px;
+  }
+
+  #button1{
+    width:80px;
+    height:40px;
+
+  }
+
+  #colorList2{
+    padding-bottom:10px;
+    width:80px;
+    height:40px;
+  }
+
+  #button2{
+    width:80px;
+    height:40px;
+  }
+
+  #button3, #button4{
+    width:80px;
+    height:40px;
+  }
+
+  h3{
+    margin-left:50px;
+    margin-top:50px;
+    font-size: 40px;
+    color:rgb(88, 19, 97);
+  }

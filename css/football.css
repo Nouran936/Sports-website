@@ -1,0 +1,335 @@
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+body {
+    margin: 0;
+    background-color: lavender;
+    font-family : 'Work Sans', sans-serif;
+    font-weight : 400;
+
+}
+/* Style the tab */
+.tab {
+ float: left;
+  
+  background-color: #f1f1f1;
+  width: 10%;
+  height: 4px;
+}
+
+.tablinks1
+{
+   
+display: inline-block;
+        background-color:rgb(88, 19, 97);
+        border-radius: 100px;
+        border: 6px inherit #cccccc;
+        border-width: thick;
+        color:black;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+}
+
+.tablinks2
+{
+   
+display: inline-block;
+        background-color:darkslategray;
+        border-radius: 100px;
+        border: 6px inherit #cccccc;
+        border-width: thick;
+        color:black;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+}
+
+.tablinks3
+{
+   
+display: inline-block;
+        background-color:sienna;
+        border-radius: 100px;
+        border: 6px inherit #cccccc;
+        border-width: thick;
+        color:black;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    
+}
+
+
+
+.tablinks1:hover {
+  background-color:rgb(165, 99, 173);
+}
+.tablinks2:hover {
+  background-color:cornflowerblue;
+}
+ .tablinks3:hover {
+  background-color:darkolivegreen;
+}
+/* Create an active/current "tab button" class */
+.tablinks1.active {
+  background-color:ghostwhite;
+    border-color: rgb(88, 19, 97);
+}
+.tablinks2.active {
+  background-color:ghostwhite;
+    border-color:rgb(88, 19, 97);
+}
+ .tablinks3.active {
+  background-color:ghostwhite;
+    border-color:forestgreen;
+}
+
+.tabcontent {
+  float: left;
+  padding: 0px 6px;
+  width: 85%;
+    margin-left: 220px;
+  border-left-width : thick;
+  height: 4000px;
+}
+.div1{
+    
+   float: left;
+}
+
+p.new
+{
+     
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.new1
+{
+    
+display: inline-flex;
+justify-content: space-between;   
+}
+
+.new2,.mn,.m2,.l1,.l2,.l3,.l4,.li1,.li2,.li3,.li4
+{
+    
+    padding-top: 100px;
+    
+}
+
+.ph2
+{
+    
+    float: left;
+    
+}
+p.neww
+{
+    margin-left: 10px;
+}
+.ph2,.ph4,.ph33,.ph51,.lph1,.lph3,.lph4,.liph2,.liph3,.liph4
+{
+    padding-right: 10px;
+}
+
+.mm
+{
+ margin-top: 350px;
+    
+}
+.ph3,.ph41,.ph5,.ll1,.ll2,.ll3,.ll4,.lig,.lig2,.lig3,.lig4
+{
+    display: flex;
+}
+
+
+
+.lph2,.liph
+{
+    height: 550px;
+    padding-right: 10px;
+}
+
+
+.la,.le
+{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.test
+{
+    border: 1px solid #ccc;
+    border-width: thick;
+    border-color: rgb(88, 19, 97);
+}
+.test2
+{
+    border: 1px solid #ccc;
+    border-width: thick;
+    border-color:rgb(88, 19, 97);
+}
+.test3
+{
+    border: 1px solid #ccc;
+    border-width: thick;
+    border-color:rgb(88, 19, 97);
+}
+
+
+.container{
+    width:80%;
+    margin:0 auto;
+}
+
+header{
+    background-color:rgb(88, 19, 97);;
+}
+
+header::after{
+    content:'';
+    display : table;
+    clear : both;
+}
+
+.logo{
+    float : left;
+    padding : 10px 0;
+}
+
+nav{
+    float : right;
+}
+
+nav ul{
+    margin : 0;
+    padding : 0;
+    list-style : none;
+}
+
+nav li{
+    /*because it allows you to use different text allignments*/
+    display : inline-block;
+    margin-left : 70px;
+    padding-top : 50px;
+
+    position : relative;
+}
+
+nav a{
+    color :white;
+    text-decoration : none;
+    text-transform : uppercase;
+    font-size : 14px;
+
+}
+
+nav a:hover{
+    color :black;
+}
+
+nav a::before{
+    content : '';
+    display : block;
+    height : 5px;
+    width : 100%;
+    background-color :white;
+    position : absolute;
+    top : 0;
+    width : 0%;
+    transition : all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width : 100%;
+
+}
+footer{
+   position: absolute;
+
+    top: 4000px;
+    left : 0;
+    right : 0;
+    background-color:rgb(88, 19, 97);
+    height : auto;
+    width : 100vw;
+    font-family : "Open Sans";
+    padding-top : 40px;
+    color : white;
+    
+}
+
+.footer-content{
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    flex-direction : column;
+    text-align : center;
+}
+
+.footer content h3{
+    font-size : 1.8rem;
+    font-weight : 400;
+    text-transform : capitalize;
+    line-height : 3rem;
+}
+
+.footer content p{
+    max-width : 500px;
+    margin : 10px auto;
+    line-height : 28px;
+    font-size : 14px;
+}
+
+.socials{
+    list-style : none;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    margin : 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin : 0 10px;
+}
+
+.socials a{
+    text-decoration : none;
+    color : white;
+}
+
+.socials li a img{
+    padding : 0;
+}
+
+.footer-bottom{
+    background : rgb(88, 19, 97);
+    width : 100vw;
+    padding : 20px 0;
+    text-align : center;
+}
+
+.footer-bottom p{
+    font-size : 14px;
+    word-spacing : 2px;
+    text-transform : capitalize;
+}
+
+.footer-bottom span{
+    text-transform : uppercase;
+    opacity : .4;
+    font-weight : 200;
+
+}

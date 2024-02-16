@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<title>Admin Page</title>
+<link rel="stylesheet" href="/css/admin.css">
+</head>
+<body>
+
+
+<div class="tab">
+    <img src="/photos/admin.jpeg" alt="" id="avatar">
+    <h2 style="font-family:serif; margin-top:0">Hello Admin</h2>
+  <button class="tablinks" onclick="openCity(event, 'Home_page')" id="defaultOpen">Home page</button>
+  <button type="button" class="tablinks" onclick="logout()">logout</button>
+  
+</div>
+
+<div id="Home_page" class="tabcontent">
+  <h3>Home_page</h3>
+  <div class="change">
+    <span>change navigation bar color:</span><input type="text" id="text1" required>
+    <input type="color" id = "colorList1" onchange="showColor1()">
+    <button id="button1" tyeb="submit">button</button>
+    <button id="button3" tyeb="submit">clear</button><br><br> <br>
+    <span>change page background color:</span> <input type="text" id="text2" required>
+    <input type="color" id = "colorList2" onchange="showColor2()">
+    <button id="button2" tyeb="submit">button</button>
+    <button id="button4" tyeb="submit">clear</button><br><br>
+  </div>
+  
+</div>
+
+
+<script src="/js/admin.js"></script>
+<script>
+  function logout(){
+    document.location.href = "/html/login.html";
+  }
+</script>
+</body>
+</html>

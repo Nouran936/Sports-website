@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" and dir="auto">
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <title>Register</title>
+    <link rel="stylesheet" href="/css/reg.css">
+</head>
+<body>
+<form class="box" action="test.html" method="POST" name = reg onsubmit="return validate()">
+<h1 >
+    Register
+</h1>
+    
+<input type="email" required name="regUser" id="email" placeholder="Enter the Email">
+
+<input type="password" required  name="regPass" id="password" placeholder="Enter the Password" >
+
+
+
+<input type="password" required  name="regPass1" id="password1" placeholder="ReEnter the Password" >
+<small id = pass_erorr>error</small>
+
+<input type="number" name="" required  id="phoneNum" placeholder="Enter your phone number" >
+<h5 ><input type="checkbox" name="" required  id="check" class="checkbox" style="vertical-align: inherit;" >by creating account you agree 
+    the <a href="https://www.termsfeed.com/blog/sample-terms-and-conditions-template/">terms and conditions </a>
+</h5> 
+
+
+
+
+<button type="submit" id="submit" value="Register" >Register</button>
+
+already have an account ? <a href="login.html">Login</a>
+
+<script src="/js/reg.js"></script>
+</form>
+
+</body>
+
+</html>
